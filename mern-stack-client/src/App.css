@@ -1,0 +1,45 @@
+body{
+  width: 90%;
+  margin: auto;
+}
+
+
+.single-post{
+  border: 1px solid grey;
+  box-sizing: border-box;
+  padding: 15px;
+  background: linear-gradient(45deg, rgb(230, 242, 255) 50%, rgb(175, 216, 255));
+  margin-bottom: 10px;
+}
+.single-post > h1{
+  margin: 0;
+  color: rgb(167, 0, 0);
+}
+.single-post:first-child{
+  border-bottom: none;
+}
+
+.delete{
+  background-color: red;
+  color: white;
+  padding: 3px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.update{
+  background-color: blue;
+  color: white;
+  padding: 3px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.message-input-update, .title-input-update, .message-input-post, .title-input-post{
+  margin-bottom: 5px;
+}
+
+.title-input-update{
+  margin-top: 5px;
+}
