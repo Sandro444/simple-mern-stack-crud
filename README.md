@@ -5,3 +5,7 @@ mern stack simple crud app
 ## connect to db:
 
 change MONGO_URI in "mern-stack-api/db.js" to connect it to your DB
+
+## install packages
+ 
+ run npm install in both folders
